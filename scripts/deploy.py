@@ -4,6 +4,7 @@ def main():
     print(deployer_account.address)
     # Passing the interval to update the state of the dNFT every 86400 seconds (equivalent to 24 hours)
     # So, according to this deployment, the state of the dNFT will be updated everyday according to the data returned by the ShambaDataStream
-
+    
+    # The parameters are passed in the order of _interval, dNFT_name, dNFT_symbol, shamba_DON_Number, shamba_Data_Stream_Code
     contract = PolyAirQuality.deploy(86400, "AIR-QUALITY-dNFT", "dNFT", 3, "air-quality_new-delhi", {'from': deployer_account})
     print("Deployed at: ", contract.address)
