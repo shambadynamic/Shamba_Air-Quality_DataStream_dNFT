@@ -56,9 +56,9 @@ According to the value of the latest geospatial data provided by the Shamba Data
 
 In this case, the conditions are:
 
-> If the value is less than or equal to 0.3 * 10**17 (i.e., 30000000000000000) ->  Good Air Quality
-> If the value is greater than 0.3 * 10**17 (i.e., 30000000000000000) ->  Intermediate Air Quality
-> If the value is less than 0.4 * 10**17 (i.e., 40000000000000000) ->  Bad Air Quality    
+> If the value is less than or equal to 0.3 * 10^17 (i.e., 30000000000000000) ->  Good Air Quality <br />
+> If the value is greater than 0.3 * 10^17 (i.e., 30000000000000000) ->  Intermediate Air Quality <br />
+> If the value is less than 0.4 * 10^17 (i.e., 40000000000000000) ->  Bad Air Quality <br />   
 
 
 ### Good Air Quality dNFT
