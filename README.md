@@ -76,3 +76,15 @@ In this case, the conditions are:
 ### Bad Air Quality dNFT
 
 ![Bad Air Quality dNFT](/assets/images/BadAirQuality_dNFT.png)
+
+
+
+#### Inforamtion about our deployed dNFT:
+
+> Smart contract: https://mumbai.polygonscan.com/address/0x8228a2974A3015Abc49a5CD56cE7549A90FB8Da0
+
+> Upkeep: https://keepers.chain.link/mumbai/33554517935830133558858453378819953745431036423431830498880781053640827894198
+
+> Opensea: https://testnets.opensea.io/collection/air-quality-dnft
+
+> Flux Aggregator: https://mumbai.polygonscan.com/address/0x4b7c440b5e980Ae67bA801979cAbDb155976e6c1
