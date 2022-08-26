@@ -40,6 +40,8 @@ DON_Number          Network           Number of Nodes       Data_Stream_Codes
 ```
 
 
+**NOTE**: Due to the deprecatation of Kovan testnet on Ethereum Layer 1 network, we're currently serving only `DON_Number 3` i.e. on Polygon Mumbai network.
+
 ## Usage of Chainlink Keepers
 
 After the successful deployment of the dNFT contract, you'll get the deployed address for the same. Now, you can verify and publish the source code of the contract to [Mumbai Polygonscan](https://mumbai.polygonscan.com/). And after that, you can copy the deployed contract address and go to [Chainlink Keepers](https://keepers.chain.link/) and click on [Register new Upkeep](https://keepers.chain.link/mumbai/new) and proceed with filling the details accordingly, in the *Upkeep address* field, paste your copied deployed contract address i.e., a keeper-compatible contract due to the presence of `checkUpkeep()` and `performUpkeep()` functions in the smart contract. In the `performUpkeep()` function itself, we're calling the `update_dNFT()` function in order to schedule it on the basis of the passed interval parameter value i.e., 86400 seconds equivalent to 24 hours or 1 day in our case, so as to make it keep updating the state of the dNFT every 24 hours according to the updated value of the *lastest geospatial data* (i.e., itself updating everyday) provided by the corresponding Shamba Data Stream. You can check the latest value of the same by running the **getGeostatsData.py** script available inside the **scripts** folder.
