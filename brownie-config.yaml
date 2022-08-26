@@ -1,12 +1,12 @@
 dependencies:
   # - <organization/repo>@<version>
-  - shambadynamic/Shamba-smartcontractkit@1.0.2
+  - shambadynamic/shamba-smartcontractkit@1.3.0
   - smartcontractkit/chainlink@1.4.1
   - OpenZeppelin/openzeppelin-contracts@4.6.0
 compiler:
   solc:
     remappings:
-      - '@shamba=shambadynamic/Shamba-smartcontractkit@1.0.2'
+      - '@shamba=shambadynamic/shamba-smartcontractkit@1.3.0'
       - '@chainlink=smartcontractkit/chainlink@1.4.1'
       - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.6.0'
 dotenv: .env
